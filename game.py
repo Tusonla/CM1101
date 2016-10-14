@@ -179,8 +179,8 @@ def menu(exits):
     while True:
         print_menu(exits)
 
-        user_input = input("")
-
+        user_input = raw_input("")
+            
         normalised_user_input = normalise_input(user_input)
 
         direction = normalised_user_input.split(" ")[1]
