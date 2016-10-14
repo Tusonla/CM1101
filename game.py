@@ -179,7 +179,7 @@ def menu(exits):
     while True:
         print_menu(exits)
 
-        user_input = raw_input("")
+        user_input = input("")
             
         normalised_user_input = normalise_input(user_input)
 
